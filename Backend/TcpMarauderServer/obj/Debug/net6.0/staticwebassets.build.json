@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xHkcv0kPaX/PvA2uk+orn+NLOOT1mzizMHtMEAvPFKk=",
+  "Source": "TcpMarauderServer",
+  "BasePath": "_content/TcpMarauderServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

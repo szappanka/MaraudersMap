@@ -94,17 +94,8 @@ D:\Msc\MaraudersMap\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mo
 D:\Msc\MaraudersMap\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\4.5\web.config
 D:\Msc\MaraudersMap\MaraudersMap\bin\Debug\net6.0\Builds\MaraudersMap_Data\RuntimeInitializeOnLoads.json
 D:\Msc\MaraudersMap\MaraudersMap\bin\Debug\net6.0\Builds\MaraudersMap_Data\ScriptingAssemblies.json
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MaraudersMap_Data\boot.config
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\2.0\machine.config
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\2.0\web.config
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\4.0\machine.config
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\4.0\web.config
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\4.5\machine.config
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MonoBleedingEdge\etc\mono\4.5\web.config
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\appsettings.Development.json
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\appsettings.json
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MaraudersMap_Data\RuntimeInitializeOnLoads.json
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Builds\MaraudersMap_Data\ScriptingAssemblies.json
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\MaraudersMap.exe
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\MaraudersMap.deps.json
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\MaraudersMap.runtimeconfig.json
@@ -171,8 +162,6 @@ D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\runtimes\browser\lib\n
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.csproj.AssemblyReference.cache
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.GeneratedMSBuildEditorConfig.editorconfig
-D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.AssemblyInfoInputs.cache
-D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.AssemblyInfo.cs
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.csproj.CoreCompileInputs.cache
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.MvcApplicationPartsAssemblyInfo.cs
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.MvcApplicationPartsAssemblyInfo.cache
@@ -190,3 +179,4 @@ D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\refint\MaraudersMap.dl
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.pdb
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.genruntimeconfig.cache
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\ref\MaraudersMap.dll
+D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\NetCoreServer.dll

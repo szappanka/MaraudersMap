@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dtnz2JJhm6oadhz2LnPoAv3dtTzAkiZMeBVGo+vxSmAwby+BZlD5cxTY9ci7zONLA1glQXIGhoYBUzy82KgzaQ==",
+  "dgSpecHash": "n4RT+M4IoiRTBBKbs8iJEsfAqCfd8ACRI4Ko8ygndiFxaEqZfv/BPm+t6x18s8BPqRJSsRlvFj8MBUpQxIlvpA==",
   "success": true,
   "projectFilePath": "D:\\Msc\\MaraudersMap\\Backend\\MaraudersMap\\MaraudersMap.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\panka\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\panka\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\panka\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\panka\\.nuget\\packages\\netcoreserver\\6.7.0\\netcoreserver.6.7.0.nupkg.sha512",
     "C:\\Users\\panka\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\panka\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\panka\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

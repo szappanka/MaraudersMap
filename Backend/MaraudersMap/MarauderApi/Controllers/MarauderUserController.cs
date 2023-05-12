@@ -3,8 +3,6 @@ using MaraudersMap.Data.DbContexts;
 using MaraudersMap.Data.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Net.Http.Json;
-using System.Text.Json.Serialization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,6 +14,9 @@ namespace MaraudersMap.MarauderApi.Controllers
     {
 
         private readonly MarauderDbContext context;
+        private readonly int port = 1111;
+        private readonly string address = "127.0.0.1";
+
 
         public MarauderUserController(MarauderDbContext context)
         {
@@ -123,6 +124,24 @@ namespace MaraudersMap.MarauderApi.Controllers
 
            return NoContent();
 
+        }
+
+        // GET api/connect
+        [HttpGet("connect")]
+        public ActionResult Connect()
+        {
+            try
+            {
+                // start the server in the other project
+
+
+
+                return Ok(new { port, address });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
         }
     }
 }
