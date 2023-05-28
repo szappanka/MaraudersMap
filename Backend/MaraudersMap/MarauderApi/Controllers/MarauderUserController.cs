@@ -3,6 +3,7 @@ using MaraudersMap.Data.DbContexts;
 using MaraudersMap.Data.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,7 +17,6 @@ namespace MaraudersMap.MarauderApi.Controllers
         private readonly MarauderDbContext context;
         private readonly int port = 1111;
         private readonly string address = "127.0.0.1";
-
 
         public MarauderUserController(MarauderDbContext context)
         {
@@ -64,10 +64,8 @@ namespace MaraudersMap.MarauderApi.Controllers
 
                 var userToAdd = new MarauderUser
                 {
-                    IsActivated = true,
                     Name = m.Name,
                     Coordinates = m.Coordinates,
-                    LastUpdate = m.LastUpdate,
                 };
                 
                 context.MarauderUsers.Add(userToAdd);
@@ -132,11 +130,40 @@ namespace MaraudersMap.MarauderApi.Controllers
         {
             try
             {
-                // start the server in the other project
+                //Process.Start("TcpMarauderServer.exe");
+                // post build event => áthelyezni a .exe -t a megfelelő helyre
+               
+                List<string> walls = new()
+                {
+                    "-13;1;6,2=13;1;6,2",
+                    "-13;1;-6,2=13;1;-6,2",
+                    "13;1;6,2=13;1;-6,2",
+                    "-13;1;6,2=-13;1;-6,2",
+                    "-5,35;1;6,2=-5,35;1;2,48",
+                    "-5,35;1;2,48=-10,97;1;2,48",
+                    "-0,6;1;2,24=4,6;1;2,24",
+                    "4,6;1;2,24=4,6;1;6,2",
+                    "8,6;1;2,46=8,6;1;6,2"
+                };
 
+                return Ok(new { port, address, walls });
 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
+        }
 
-                return Ok(new { port, address });
+        // GET api/connect
+        [HttpGet("blueprint")]
+        public ActionResult GetBlueprint()
+        {
+            try
+            {
+                string json = "{\"walls\":[\"-13;1;6.2=13;1;6.2\",\"-13;1;-6.2=13;1;-6.2\",\"13;1;6.2=13;1;-6.2\",\"-13;1;6.2=-13;1;-6.2\",\"-5.35;1;6.2=-5.35;1;2.48\",\"-5.35;1;2.48=-10.97;1;2.48\",\"-0.6;1;2.24=4.6;1;2.24\",\"4.6;1;2.24=5.3;1;6.2\",\"8.6;1;2.46=8.6;1;6.2\"]}";
+
+                return Ok(json);
             }
             catch (Exception ex)
             {

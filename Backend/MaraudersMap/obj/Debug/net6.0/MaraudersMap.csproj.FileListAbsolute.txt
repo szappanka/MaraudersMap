@@ -133,6 +133,7 @@ D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\NetCoreServer.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -179,4 +180,5 @@ D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\refint\MaraudersMap.dl
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.pdb
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\MaraudersMap.genruntimeconfig.cache
 D:\Msc\MaraudersMap\Backend\MaraudersMap\obj\Debug\net6.0\ref\MaraudersMap.dll
-D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\NetCoreServer.dll
+D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Json\blueprint.json
+D:\Msc\MaraudersMap\Backend\MaraudersMap\bin\Debug\net6.0\Newtonsoft.Json.dll

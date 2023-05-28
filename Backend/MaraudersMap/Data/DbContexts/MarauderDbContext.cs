@@ -29,14 +29,6 @@ namespace MaraudersMap.Data.DbContexts
             modelBuilder.Entity<MarauderUser>()
                 .Property(c => c.Coordinates)
                 .HasMaxLength(30);
-
-            modelBuilder.Entity<MarauderUser>()
-                .Property(c => c.IsActivated)
-                .HasDefaultValue(false);
-
-            modelBuilder.Entity<MarauderUser>()
-                .Property(c => c.LastUpdate)
-                .HasDefaultValue(0);
         }
     }
 }

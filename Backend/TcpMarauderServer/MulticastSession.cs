@@ -11,11 +11,13 @@ namespace TcpMulticastServer
         protected override void OnConnected()
         {
             Console.WriteLine($"Session with Id {Id} connected!");
+            Server.FindSession(Id).SendAsync($"Id:{Id}");
         }
 
         protected override void OnDisconnected()
         {
             Console.WriteLine($"Session with Id {Id} disconnected!");
+            // unicast the disconnect message to the one who disconnected
         }
 
         protected override void OnReceived(byte[] buffer, long offset, long size)

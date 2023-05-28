@@ -1,11 +1,8 @@
+D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.exe
+D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.dll
+D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\NetCoreServer.dll
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\appsettings.Development.json
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\appsettings.json
-D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.exe
-D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.deps.json
-D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.runtimeconfig.json
-D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.dll
-D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.pdb
-D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\NetCoreServer.dll
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer.csproj.AssemblyReference.cache
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer.AssemblyInfoInputs.cache
@@ -24,5 +21,8 @@ D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer.dll
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\refint\TcpMarauderServer.dll
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer.pdb
+D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.deps.json
+D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.runtimeconfig.json
+D:\Msc\MaraudersMap\Backend\TcpMarauderServer\bin\Debug\net6.0\TcpMarauderServer.pdb
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\TcpMarauderServer.genruntimeconfig.cache
 D:\Msc\MaraudersMap\Backend\TcpMarauderServer\obj\Debug\net6.0\ref\TcpMarauderServer.dll
